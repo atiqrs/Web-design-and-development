@@ -1,1 +1,6 @@
-h1{color:red; font-size: 50px;}
+h1{color:green; font-size: 50px;}
+h2{color: red; font-family: Algerian}
+.mainmenu{margin: 0px; padding: 0px; list-style: none}
+.mainmenu li{float: left;}
+.mainmenu li a{display: block; padding: 10px; background: #EFD9D4; color: #FFFFFF; text-decoration: none;}
+.mainmenu li a.hover{}
