@@ -1,16 +1,19 @@
 *{margin: 0px; padding: 0px;}
-
-.header img{width: 960px; height: 200px; background: #7D3C98; padding: 50px; margin: 50px;}
-.mainmenu{overflow: hidden; ;margin:5px; padding: 2px; list-style: none;}
-.mainmenu ul{margin: 0px; padding: 0px; list-style: none;}
-.mainmenu ul li{float: left; border-right: 1px solid #7D3C98;}
+.main{width: 960px; margin: 20px auto;}
+.header{overflow: hidden; }
+.header img{width: 960px; height: 200px;margin-bottom: 20px; }
+.mainmenu{overflow: hidden;margin:0px; padding: 0px; list-style: none;}
+.mainmenu ul{margin: 0px; padding: 0px; list-style: none; }
+.mainmenu ul li{float: left; width: 239px; border-right: 1px solid #7D3C98;}
 .mainmenu li a{display: block; background: #CCD1D1; padding: 10px; text-decoration: none;}
 .mainmenu li a.hover{}
 .slider {overflow: hidden;}
-.slider img{width: 960px;height: 260px;}
+.slider img{width: 960px; margin-top: 20px;}
 .info{overflow: hidden;}
-.raw{float: left; width: 880px; margin-right: 20px;}
-/*.raw h1{}
-.raw p{width: 840px;}*/
-.menu2{float: right; width: 60px;}
-.footer{overflow: hidden;}
+.raw{float: left; width: 640px; margin-right: 30px;}
+.mainmenu2{float: right; width: 260px;}
+.mainmenu2 ul{margin: 0px; padding: 0px;list-style: none; }
+.mainmenu2 ul li{ padding: 5px; padding-left: 10px; background: #CCD1D1;margin-bottom:1px;}
+.mainmenu2 ul li a{text-decoration: none; color: #000000;  }
+.footer{overflow: hidden; background: #010101; margin-top: 10px;}
+.footer p{color: #fff; margin: 5px; padding-left: 20px; }
