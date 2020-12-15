@@ -1,6 +1,16 @@
-h1{color:green; font-size: 50px;}
-h2{color: red; font-family: Algerian}
-.mainmenu{margin: 0px; padding: 0px; list-style: none}
-.mainmenu li{float: left;}
-.mainmenu li a{display: block; padding: 10px; background: #EFD9D4; color: #FFFFFF; text-decoration: none;}
+*{margin: 0px; padding: 0px;}
+
+.header img{width: 960px; height: 200px; background: #7D3C98; padding: 50px; margin: 50px;}
+.mainmenu{overflow: hidden; ;margin:5px; padding: 2px; list-style: none;}
+.mainmenu ul{margin: 0px; padding: 0px; list-style: none;}
+.mainmenu ul li{float: left; border-right: 1px solid #7D3C98;}
+.mainmenu li a{display: block; background: #CCD1D1; padding: 10px; text-decoration: none;}
 .mainmenu li a.hover{}
+.slider {overflow: hidden;}
+.slider img{width: 960px;height: 260px;}
+.info{overflow: hidden;}
+.raw{float: left; width: 880px; margin-right: 20px;}
+/*.raw h1{}
+.raw p{width: 840px;}*/
+.menu2{float: right; width: 60px;}
+.footer{overflow: hidden;}
